@@ -1,0 +1,407 @@
+/* =========================== СБРОС ==================================== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+/* ============================ СБРОС DONE ========================================= */
+
+/* ============================= MAIN SETTINGS ====================================== */
+
+.list {
+  list-style: none;
+}
+
+.link a {
+  text-decoration: none;
+}
+
+.img {
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.advantages {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  width: 270px;
+}
+
+.h3-advantages {
+  font-weight: 700;
+  color: #212121;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.p-advantages {
+  font-weight: 400;
+  color: #757575;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+img {
+  display: block;
+}
+/* ============================== MAIN SETTINGS DONE ===================================== */
+
+/* ============================== HEADER ============================================== */
+
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-nav {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  margin-right: 93px;
+}
+
+.logo-web {
+  color: #2196f3;
+}
+
+.logo-studio {
+  color: black;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02px;
+  color: #212121;
+}
+.nav-li:not(:last-child) {
+  margin-right: 50px;
+}
+
+.navigation .nav-blue {
+  color: #2196f3;
+}
+
+.nav:hover,
+.nav:focus {
+  color: #2196f3;
+}
+
+.header-mail {
+  margin-right: 50px;
+}
+
+.info-header a {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0, 02em;
+  font-family: "Roboto", sans-serif;
+  color: #757575;
+}
+
+.info-header a:hover,
+.info-header a:focus {
+  color: #2196f3;
+}
+
+/* ============================== HEADER DONE ========================================== */
+
+/* =============================== MAIN =================================================== */
+
+.h1-btn-background {
+  background-color: #2f303a;
+  height: 600px;
+  padding-top: 200px;
+}
+
+.effective-solutions {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  letter-spacing: 0.06em;
+  color: white;
+  line-height: 60px;
+
+  width: 700px;
+  text-align: center;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.button-studio {
+  display: block;
+  letter-spacing: 0.06em;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  background-color: #2196f3;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  border: none;
+
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+
+  padding: 10px 32px;
+}
+
+.our-advantages {
+  display: flex;
+  justify-content: space-between;
+}
+
+.h2-what {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-align: center;
+}
+
+.what-img {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.h2-pics {
+  padding-bottom: 94px;
+}
+
+.our-team-background {
+  height: 650px;
+  background-color: #f5f4fa;
+}
+
+.our-team {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-team > li {
+  background-color: white;
+  min-height: 368px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.our-team-name-h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.specialization {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  text-align: center;
+}
+
+/* ======================================== MAIN ========================================= */
+
+/* ===================================== FOOTER ========================================= */
+
+.footer {
+  background-color: #2f303a;
+  height: 252px;
+}
+
+.footer-container {
+  padding-top: 60px;
+}
+
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+  display: block;
+}
+.studio-footer {
+  color: white;
+}
+address p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+  margin-bottom: 9px;
+}
+address a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.tel-footer {
+  display: block;
+  margin-top: 9px;
+}
+
+/* ==================================== Portfoliopage.html =========================================*/
+
+/* ===================================== MAIN SETTINGS ============================================ */
+
+/* ===================================== MAIN SETTINGS ============================================ */
+
+.portfolio-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-portfolio-buttons:not(:last-child) {
+  margin-right: 8px;
+}
+
+.button-portfolio {
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+
+  padding: 6px 22px;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background: #2196f3;
+  color: white;
+}
+
+.portfolio-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: -30px;
+}
+
+.portfolio-card {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  margin-top: 30px;
+}
+
+.section2 {
+  margin-top: 34px;
+}
+
+.section2 h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  padding-left: 24px;
+}
+.section2 p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+
+  padding-left: 24px;
+  padding-bottom: 20px;
+}
